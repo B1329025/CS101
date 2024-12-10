@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int i = 1234567;
+    int i = 1;
     int thousandplace = i / 1000 % 10;
     int unitplace = i%10;
     i -=thousandplace*1000+unitplace;
